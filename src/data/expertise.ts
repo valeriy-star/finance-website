@@ -47,12 +47,16 @@ export const sevenStages = [
     title: 'Manual',
     body:
       'The founder controls finance directly. Personal money and company money may not yet be clearly separated.',
+    note: '',
+    transformation: false,
   },
   {
     number: 2,
     title: 'Tools',
     body:
       'A more formal approach to money movement between founder and company appears. Accounting records flows clearly.',
+    note: '',
+    transformation: false,
   },
   {
     number: 3,
@@ -68,24 +72,31 @@ export const sevenStages = [
     body:
       'Accumulated data becomes real indicators for timely decisions. The business starts to speak the language of numbers.',
     note: 'Entry to the “big circle”.',
+    transformation: false,
   },
   {
     number: 5,
     title: 'Predictive Finance',
     body:
       'Long-term strategy and risks are built into the model. Scenarios are calculated and risks managed or hedged.',
+    note: '',
+    transformation: false,
   },
   {
     number: 6,
     title: 'External Investment',
     body:
       'The company generates cash flow through financial and investment instruments, independently from core operations.',
+    note: '',
+    transformation: false,
   },
   {
     number: 7,
     title: 'Cultural Expansion',
     body:
       'The company chooses strategies and projects based on long-term social value: philanthropy, patronage and legacy.',
+    note: '',
+    transformation: false,
   },
 ] as const;
 
@@ -128,12 +139,14 @@ export const upgradeLevels = [
     title: 'Delegation',
     body:
       'The founder hires an assistant and gives access to financial information and payment processes. Control is no longer fully centralised, and the founder gets back the most valuable resource: time.',
+    highlight: false,
   },
   {
     number: 2,
     title: 'Accounting system',
     body:
       'An accounting system, such as 1C or an equivalent platform, becomes the data core. The company has an informal policy for collecting financial information.',
+    highlight: false,
   },
   {
     number: 3,
@@ -147,12 +160,14 @@ export const upgradeLevels = [
     title: 'Analytics',
     body:
       'Analytical systems and BI tools appear. Only companies that have done the internal homework on processes and data quality reach this point.',
+    highlight: false,
   },
   {
     number: 5,
     title: 'Predictive systems',
     body:
       'Predictive finance is the technology of working with what has not happened yet. By this stage, the company has strong software and strong operational financial thinking.',
+    highlight: false,
   },
 ] as const;
 
