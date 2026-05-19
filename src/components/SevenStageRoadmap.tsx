@@ -25,9 +25,9 @@ export function SevenStageRoadmap() {
 
         <ol className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-3">
           {sevenStages.map((s) => {
-            const transformation = (s as { transformation?: boolean }).transformation;
-            const note = (s as { note?: string }).note;
-            const isBigCircle = note?.includes('big circle');
+            const transformation = s.transformation;
+            const note = s.note;
+            const isBigCircle = note.includes('big circle');
             return (
               <li
                 key={s.number}
@@ -63,7 +63,7 @@ export function SevenStageRoadmap() {
                 >
                   {s.body}
                 </p>
-                {note && (
+                {note !== '' && (
                   <p
                     className={`mt-3 text-[11px] font-medium ${
                       transformation ? 'text-white' : 'text-brand'
