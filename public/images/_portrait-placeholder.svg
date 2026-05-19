@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B1947"/>
+      <stop offset="1" stop-color="#282561"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1500" fill="url(#g)"/>
+  <g fill="rgba(255,255,255,0.85)">
+    <circle cx="500" cy="560" r="160"/>
+    <path d="M260 1180c0-132 108-240 240-240s240 108 240 240v260H260z"/>
+  </g>
+  <text x="500" y="1100" text-anchor="middle" fill="rgba(255,255,255,0.6)"
+    font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="600" letter-spacing="6">
+    PORTRAIT
+  </text>
+  <text x="500" y="1150" text-anchor="middle" fill="rgba(255,255,255,0.4)"
+    font-family="Inter, system-ui, sans-serif" font-size="22">
+    Replace with executive portrait
+  </text>
+</svg>
