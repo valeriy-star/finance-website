@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Rounded navy plate -->
+  <rect width="64" height="64" rx="12" fill="#282561"/>
+  <!--
+    The two original "V" blade paths lifted from the KOSOVAN logo SVG.
+    Source bounding box: x 247.69 → 309.92, y 0.04 → 67.18.
+    Transform: translate to centre, scale to fit, translate source to origin.
+  -->
+  <g transform="translate(9.75 8) scale(0.715) translate(-247.69 -0.035)">
+    <!-- Left blade (was indigo, now white for contrast on navy) -->
+    <path
+      fill="#FFFFFF"
+      d="M 247.691 12.609 L 267.258 67.180 L 283.070 67.180 L 262.434 12.609 Z"
+    />
+    <!-- Right blade — red slash extending above the apex -->
+    <path
+      fill="#BD202E"
+      d="M 279.168 42.172 L 293.348 42.172 L 309.922 0.035 L 295.180 0.035 Z"
+    />
+  </g>
+</svg>
