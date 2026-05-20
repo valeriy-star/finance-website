@@ -6,7 +6,7 @@ import { asset } from '@/lib/paths';
 const bullets = [
   'Built the financial planning and budgeting process from zero.',
   'Developed a financial planning system that forecasted operating cash flow with an annual deviation of approximately 7%.',
-  'Registered companies and built tax accounting systems across the USA, Ireland, the UK, Belize, Georgia and China.',
+  'Registered companies and built tax-accounting systems across ten jurisdictions including the USA, the United Kingdom, Ireland, Cyprus, China, Georgia, Bulgaria, Estonia, Czechia and Ukraine.',
 ];
 
 export function FounderCredibility() {
