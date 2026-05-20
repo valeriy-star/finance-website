@@ -7,6 +7,7 @@ export const siteConfig = {
     'Strategic CFO, finance transformation leader and international finance executive. Building scalable finance infrastructure for technology, SaaS and logistics businesses.',
   contactEmail: 'hello@kosovan.finance',
   // Used by the contact form mailto fallback. Replace as needed.
+  linkedinUrl: 'https://www.linkedin.com/in/valeriy-kosovan-a758613/',
   navigation: [
     { label: 'Home', href: '/' },
     { label: 'Expertise', href: '/expertise/' },
