@@ -194,6 +194,6 @@ export const services = [
     title: 'International presence',
     description:
       'IT businesses often choose international jurisdictions for security, customer proximity and investment. We help decide where the company should be based, taking into account team plans, customer traffic, investor expectations and banking realities.',
-    points: ['USA', 'United Kingdom', 'Ireland', 'Cyprus', 'Georgia', 'China'],
+    points: ['USA', 'United Kingdom', 'Ireland', 'Cyprus', 'Georgia', 'China', 'Bulgaria', 'Estonia', 'Czechia', 'Ukraine'],
   },
 ] as const;
