@@ -31,19 +31,21 @@ export function EvolutionPyramid() {
                   <div key={stage.number} className="flex items-center justify-center">
                     <div
                       style={{ width }}
-                      className={`relative h-14 sm:h-16 flex items-center justify-between px-5 sm:px-6 rounded-md shadow-soft ${
+                      className={`relative h-14 sm:h-16 flex items-center justify-between gap-3 px-5 sm:px-6 rounded-md shadow-soft ${
                         isHighlight
                           ? 'bg-brand-accent text-white'
                           : 'bg-brand text-white'
                       }`}
                     >
-                      <span className="text-[11px] sm:text-xs font-semibold tracking-[0.18em] uppercase text-white/80">
+                      <span className="text-[11px] sm:text-xs font-semibold tracking-[0.18em] uppercase text-white/80 flex-shrink-0">
                         Stage {stage.number}
                       </span>
-                      <span className="font-semibold text-sm sm:text-base">{stage.title}</span>
+                      <span className="font-semibold text-sm sm:text-base text-right leading-tight">
+                        {stage.title}
+                      </span>
                       {isHighlight && (
-                        <span className="hidden md:block absolute left-full ml-4 whitespace-nowrap text-xs font-semibold tracking-[0.18em] uppercase text-brand-accent">
-                          ← CFO required here
+                        <span className="hidden md:block absolute right-full mr-4 whitespace-nowrap text-xs font-semibold tracking-[0.18em] uppercase text-brand-accent">
+                          CFO required here →
                         </span>
                       )}
                     </div>
