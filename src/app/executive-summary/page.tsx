@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { Container } from '@/components/Container';
 import { SectionHeading } from '@/components/SectionHeading';
 import { ContactCTA } from '@/components/ContactCTA';
+import { asset } from '@/lib/paths';
 import {
   heroBadges,
   coreExpertise,
   achievements,
-  education,
 } from '@/data/executiveSummary';
 
 export const metadata: Metadata = {
@@ -66,7 +66,7 @@ export default function ExecutiveSummaryPage() {
           <div className="lg:col-span-5 order-1 lg:order-2">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto rounded-3xl overflow-hidden bg-brand ring-1 ring-white/10">
               <Image
-                src="/images/valeriy-kosovan-executive-dark.jpg"
+                src={asset('/images/valeriy-kosovan-executive-dark.jpg')}
                 alt="Valeriy Kosovan — Strategic CFO and Finance Transformation Leader"
                 fill
                 className="object-cover"
@@ -157,7 +157,7 @@ export default function ExecutiveSummaryPage() {
           <div className="lg:col-span-5">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto rounded-3xl overflow-hidden bg-brand">
               <Image
-                src="/images/valeriy-kosovan-city.jpg"
+                src={asset('/images/valeriy-kosovan-city.jpg')}
                 alt="Valeriy Kosovan — international finance executive"
                 fill
                 className="object-cover"
@@ -225,27 +225,6 @@ export default function ExecutiveSummaryPage() {
             title="Not back-office finance. A management system that helps the business grow."
             intro="Valeriy’s focus is not limited to historical reporting. He works with business drivers, operational constraints, cash-flow planning, profitability analysis and strategic decision-making. Earlier experience in sales and product management strengthens this commercial perspective."
           />
-        </Container>
-      </section>
-
-      {/* Education */}
-      <section className="py-20 lg:py-24">
-        <Container>
-          <SectionHeading
-            eyebrow="Education and professional background"
-            title="A foundation in corporate finance, international tax, management and technology."
-          />
-          <ol className="mt-10 grid sm:grid-cols-2 gap-4">
-            {education.map((e, i) => (
-              <li
-                key={e}
-                className="rounded-2xl border border-slate-200 bg-white p-5 flex gap-4 items-start"
-              >
-                <span className="font-display text-2xl text-brand">{String(i + 1).padStart(2, '0')}</span>
-                <span className="text-brand-ink/85 leading-relaxed">{e}</span>
-              </li>
-            ))}
-          </ol>
         </Container>
       </section>
 
