@@ -32,9 +32,7 @@ jobs:
       - run: npm install --no-audit --no-fund
 
       - run: npm run build
-        env:
-          # Project page at https://valeriy-star.github.io/finance-website/
-          NEXT_PUBLIC_BASE_PATH: /finance-website
+       
 
       - name: Disable Jekyll on GitHub Pages
         run: touch out/.nojekyll
