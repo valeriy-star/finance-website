@@ -17,7 +17,7 @@ export function ExecutiveSummaryPreview() {
           <div className="lg:col-span-5">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:mx-0 rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-soft bg-brand">
               <Image
-                src="/images/valeriy-kosovan-executive-dark.svg"
+                src="/images/valeriy-kosovan-executive-dark.jpg"
                 alt="Valeriy Kosovan, Financial Technology Expert"
                 fill
                 className="object-cover"
