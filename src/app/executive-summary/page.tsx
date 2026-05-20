@@ -174,7 +174,8 @@ export default function ExecutiveSummaryPage() {
               <p>
                 A major strength of Valeriy’s profile is practical experience in cross-border finance.
                 He has been involved in designing and implementing international corporate structures
-                across the United Kingdom, United States, Ireland, Cyprus and China.
+                across the United Kingdom, United States, Ireland, Cyprus, China, Georgia, Bulgaria,
+                Estonia, Czechia and Ukraine.
               </p>
               <p>
                 These structures were developed not only for administrative purposes, but as part of
@@ -276,10 +277,10 @@ export default function ExecutiveSummaryPage() {
               What makes these achievements particularly important is the complexity of the
               operating environment. Valeriy has been heavily involved in designing and implementing
               international corporate structures across several jurisdictions, including the United
-              Kingdom, United States, Ireland, Cyprus and China. These structures were created as
-              part of a deliberate long-term strategy to support investor readiness, separate
-              operational risks, optimise tax exposure, improve banking transparency and create
-              scalable foundations for future growth.
+              Kingdom, United States, Ireland, Cyprus, China, Georgia, Bulgaria, Estonia, Czechia
+              and Ukraine. These structures were created as part of a deliberate long-term strategy
+              to support investor readiness, separate operational risks, optimise tax exposure,
+              improve banking transparency and create scalable foundations for future growth.
             </p>
             <p>
               Importantly, his involvement has extended beyond high-level planning. He has managed
