@@ -53,7 +53,7 @@ export function HeroHome() {
         <dl className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 max-w-4xl">
           <Stat title="20+ years" body="Corporate finance experience" />
           <Stat title="15 entities" body="Multi-jurisdictional structure managed" />
-          <Stat title="6 countries" body="UK, US, Ireland, Cyprus, China, Georgia" />
+          <Stat title="10 countries" body="UK, US, Ireland, Cyprus +6 more" />
           <Stat title="≈ 7% deviation" body="Operating cash-flow forecast accuracy" />
         </dl>
       </Container>
