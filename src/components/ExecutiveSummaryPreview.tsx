@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Container } from './Container';
 import { SectionHeading } from './SectionHeading';
+import { asset } from '@/lib/paths';
 
 const bullets = [
   'Built financial planning and budgeting processes from zero, with operating cash-flow forecasting accuracy of approximately 7% annual deviation.',
@@ -17,7 +18,7 @@ export function ExecutiveSummaryPreview() {
           <div className="lg:col-span-5">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:mx-0 rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-soft bg-brand">
               <Image
-                src="/images/valeriy-kosovan-executive-dark.jpg"
+                src={asset('/images/valeriy-kosovan-executive-dark.jpg')}
                 alt="Valeriy Kosovan, Financial Technology Expert"
                 fill
                 className="object-cover"
