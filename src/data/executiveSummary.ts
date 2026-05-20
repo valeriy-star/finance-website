@@ -5,7 +5,7 @@ export const heroBadges = [
   },
   {
     title: 'International structures',
-    description: 'UK, US, Ireland, Cyprus, China and other jurisdictions',
+    description: '10 jurisdictions across the UK, US, EU, China and beyond',
   },
   {
     title: 'ERP transformation',
@@ -59,7 +59,7 @@ export const achievements = [
   {
     title: 'Implemented international corporate structures',
     description:
-      'Designed and implemented structures across the United Kingdom, United States, Ireland, Cyprus, China and other jurisdictions to support growth, risk separation, tax planning and investor readiness.',
+      'Designed and implemented structures across the United Kingdom, United States, Ireland, Cyprus, China, Georgia, Bulgaria, Estonia, Czechia and Ukraine to support growth, risk separation, tax planning and investor readiness.',
   },
   {
     title: 'Maintained highly efficient tax structures',
@@ -81,12 +81,4 @@ export const achievements = [
     description:
       'Supported migration from Google Sheets and fragmented manual processes to Odoo Accounting and more scalable financial operations.',
   },
-] as const;
-
-export const education = [
-  'Executive MBA studies — Warwick Business School',
-  'Advanced Corporate Finance — London School of Economics',
-  'International Tax Law studies — Universiteit Leiden',
-  'Economics and investment banking management background',
-  'Intelligent computer systems and networks background',
 ] as const;
