@@ -9,7 +9,10 @@ export function AuthorSignature() {
           src={asset('/images/valeriy-kosovan-article-signature.jpg')}
           alt="Valeriy Kosovan"
           fill
-          className="object-cover"
+          // object-top anchors the image to the top of the circle, so the head
+          // stays in frame instead of being cropped off. Fine-tune with an
+          // arbitrary value if needed, e.g. object-[50%_15%].
+          className="object-cover object-top"
         />
       </div>
       <div>
