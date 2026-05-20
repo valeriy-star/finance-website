@@ -3,6 +3,7 @@ import { Inter, Fraunces } from 'next/font/google';
 import './globals.css';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { WebSiteSchema } from '@/components/StructuredData';
 import { siteConfig } from '@/data/site';
 
 const inter = Inter({
@@ -44,11 +45,20 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} — Financial Technology Expert`,
     description: siteConfig.description,
     siteName: siteConfig.name,
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'KOSOVAN — Financial Technology Expert',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${siteConfig.name} — Financial Technology Expert`,
     description: siteConfig.description,
+    images: ['/og-image.png'],
   },
   icons: {
     icon: [
@@ -62,6 +72,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-GB" className={`${inter.variable} ${fraunces.variable}`}>
+      <head>
+        <WebSiteSchema />
+      </head>
       <body className="font-sans antialiased bg-white text-brand-ink">
         <SiteHeader />
         <main>{children}</main>
