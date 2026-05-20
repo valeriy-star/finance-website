@@ -66,7 +66,7 @@ export default function ExecutiveSummaryPage() {
           <div className="lg:col-span-5 order-1 lg:order-2">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto rounded-3xl overflow-hidden bg-brand ring-1 ring-white/10">
               <Image
-                src="/images/valeriy-kosovan-executive-dark.svg"
+                src="/images/valeriy-kosovan-executive-dark.jpg"
                 alt="Valeriy Kosovan — Strategic CFO and Finance Transformation Leader"
                 fill
                 className="object-cover"
