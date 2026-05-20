@@ -21,7 +21,7 @@ const tiles = [
   },
   {
     title: 'International presence',
-    body: 'Cross-border structures across the UK, US, Ireland, Cyprus, China and Georgia, with banking and substance in mind.',
+    body: 'Cross-border structures across 10 jurisdictions including the UK, US, Ireland, Cyprus, China and Georgia, with banking and substance in mind.',
   },
   {
     title: 'Comprehensive upgrade',
