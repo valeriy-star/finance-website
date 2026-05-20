@@ -6,7 +6,7 @@ import { asset } from '@/lib/paths';
 
 const bullets = [
   'Built financial planning and budgeting processes from zero, with operating cash-flow forecasting accuracy of approximately 7% annual deviation.',
-  'Designed and implemented international corporate structures across the United Kingdom, United States, Ireland, Cyprus, China and Georgia.',
+  'Designed and implemented international corporate structures across the United Kingdom, United States, Ireland, Cyprus, China, Georgia, Bulgaria, Estonia, Czechia and Ukraine.',
   'Led ERP-driven finance transformation, migrating a 15-entity, ~500-employee group from spreadsheets to Odoo Accounting.',
 ];
 
