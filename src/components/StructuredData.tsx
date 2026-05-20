@@ -66,8 +66,7 @@ export function PersonSchema() {
       name: 'KOSOVAN FTE',
       url: siteConfig.url,
     },
-    // Add LinkedIn / X / other public profiles here as they become available:
-    // sameAs: ['https://www.linkedin.com/in/...', 'https://x.com/...'],
+    sameAs: [siteConfig.linkedinUrl],
   };
   return (
     <script
