@@ -16,7 +16,7 @@ export function FounderCredibility() {
           <div className="lg:col-span-5">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:mx-0 rounded-3xl overflow-hidden bg-brand">
               <Image
-                src="/images/valeriy-kosovan-city.svg"
+                src="/images/valeriy-kosovan-city.jpg"
                 alt="Valeriy Kosovan — Financial Technology Expert"
                 fill
                 className="object-cover"
