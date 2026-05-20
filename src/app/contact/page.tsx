@@ -78,7 +78,7 @@ export default function ContactPage() {
                   <li className="flex gap-3"><Dot /><span>A comprehensive finance upgrade for a fast-growing IT business.</span></li>
                   <li className="flex gap-3"><Dot /><span>Targeted improvements: accounting, payroll, metrics or cash-flow architecture.</span></li>
                   <li className="flex gap-3"><Dot /><span>ERP migration — particularly Odoo Accounting for multi-entity groups.</span></li>
-                  <li className="flex gap-3"><Dot /><span>International structuring: UK, US, Ireland, Cyprus, China, Georgia.</span></li>
+                  <li className="flex gap-3"><Dot /><span>International structuring across 10 jurisdictions including the UK, US, Ireland, Cyprus, China and Georgia.</span></li>
                   <li className="flex gap-3"><Dot /><span>Audit, investor and reporting readiness.</span></li>
                 </ul>
               </div>
